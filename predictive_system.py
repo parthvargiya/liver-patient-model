@@ -2,9 +2,9 @@ import numpy as np
 import pickle
 
 # LOADING THE SAVED MODEL
-loaded_model = pickle.load(open('C:/Users/Dell/Desktop/New folder/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
-scaler = pickle.load(open('C:/Users/Dell/Desktop/New folder/scaler.sav', 'rb'))
+scaler = pickle.load(open('scaler.sav', 'rb'))
 
 input_data = (0, 65, 0.7,	0.1,	187,	16,	18,	6.8,	3.3,	0.90)
 
