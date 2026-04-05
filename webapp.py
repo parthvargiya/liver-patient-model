@@ -4,10 +4,10 @@ import streamlit as st
 import pandas as pd
 
 # LOADING THE SAVED MODEL
-loaded_model = pickle.load(open('C:/Users/Dell/Desktop/New folder/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 # LOADING THE SAVED SCALER
-scaler = pickle.load(open('C:/Users/Dell/Desktop/New folder/scaler.sav', 'rb'))
+scaler = pickle.load(open('scaler.sav', 'rb'))
 
 # CREATING A FUNCTION FOR PREDICTION 
 def liverpatient_prediction(input_data):
